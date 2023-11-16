@@ -1,0 +1,23 @@
+{
+    "name":"nguyenhokhanhduong/shop-thoi-trang",
+    "description":"xay dung website ban hang",
+    "authors":[
+        {
+            "name":"Nguyen Ho Khanh Duong",
+            "email":"khanhduong21102004@gmail.com"
+        }
+    ],
+    "autoload":{
+        "psr-4":{
+            "App\\":"app/"
+        },
+        "files":[
+            "./app/Route.php",
+            "./config/database.php"
+        ]
+    },
+    "require":{
+        "illuminate/database": "^10.26",
+        "illuminate/events": "^10.26"
+    }     
+}
